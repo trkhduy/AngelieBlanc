@@ -1,0 +1,13 @@
+2024-08-24T14:11:02+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "a" in D:\laragon\www\furniture\wp-content\plugins\woosidebars\classes\class-woo-sidebars.php:170
+Stack trace:
+#0 D:\laragon\www\furniture\wp-content\plugins\woosidebars\classes\class-woo-sidebars.php(170): sprintf('Search %a', 'Widget Areas')
+#1 D:\laragon\www\furniture\wp-includes\class-wp-hook.php(324): Woo_Sidebars->register_post_type('')
+#2 D:\laragon\www\furniture\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 D:\laragon\www\furniture\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\laragon\www\furniture\wp-settings.php(700): do_action('init')
+#5 D:\laragon\www\furniture\wp-config.php(103): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\furniture\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#7 D:\laragon\www\furniture\wp-login.php(12): require('D:\\laragon\\www\\...')
+#8 {main}
+  thrown in D:\laragon\www\furniture\wp-content\plugins\woosidebars\classes\class-woo-sidebars.php on line 170
+
